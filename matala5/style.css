@@ -26,4 +26,8 @@ img {
   height: auto;
   margin: 10px;
 }
-
+div {
+  border: 3px solid blue; /* Change 'blue' to your preferred color */
+  padding: 20px; /* Space between content and border */
+  background-color: lightgray; /* To make the border stand out */
+}
