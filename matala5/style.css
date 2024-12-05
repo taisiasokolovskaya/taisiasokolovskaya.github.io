@@ -31,3 +31,7 @@ div {
   padding: 20px; /* Space between content and border */
   background-color: lightgray; /* To make the border stand out */
 }
+a:hover {
+  color: green;
+  text-decoration: underline; /* Optional, but makes the hover effect more noticeable */
+}
