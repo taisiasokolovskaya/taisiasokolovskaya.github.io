@@ -9,33 +9,6 @@ header {
   padding: 10px 0;
 }
 
-nav ul {
-  list-style: none;
-  display: flex;
-  justify-content: space-around;
-  padding: 0;
-}
-nav a {
-  color: white;
-  text-decoration: none;
-}
-#content {
-  padding: 20px;
-}
-img {
-  width: 300px;
-  height: auto;
-  margin: 10px;
-}
-div {
-  border: 3px solid blue; /* Change 'blue' to your preferred color */
-  padding: 20px; /* Space between content and border */
-  background-color: lightgray; /* To make the border stand out */
-}
-a:hover {
-  color: green;
-  text-decoration: underline; /* Optional, but makes the hover effect more noticeable */
-}
 container {
   display: flex; /* Расположение колонок в одну строку */
   justify-content: space-between; /* Равномерное распределение колонок */
