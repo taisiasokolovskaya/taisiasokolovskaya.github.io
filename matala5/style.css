@@ -8,28 +8,7 @@ header {
   color: white;
   padding: 10px 0;
 }
-columns {
-    display: flex;
-    justify-content: space-between;
-    margin: 0 auto;
-    max-width: 1200px;
-    padding: 0 20px;
-}
 
-section {
-    flex: 1;
-    margin: 0 10px;
-    padding: 20px;
-    background-color: #f4f4f4;
-    border: 1px solid #ccc;
-    border-radius: 5px;
-    text-align: center;
-}
-
-section h2 {
-    margin-top: 0;
-    color: #333;
-}
 nav ul {
   list-style: none;
   display: flex;
@@ -56,4 +35,28 @@ div {
 a:hover {
   color: green;
   text-decoration: underline; /* Optional, but makes the hover effect more noticeable */
+}
+container {
+  display: flex;
+  justify-content: space-between;
+}
+
+.column {
+  flex: 1;
+  margin: 0 10px;
+}
+
+h2 {
+  text-align: center;
+  color: purple; /* Фиолетовый цвет для заголовков */
+}
+
+ul {
+  list-style-type: none; /* Убирает маркеры у списка */
+  padding: 0;
+}
+
+li {
+  color: pink; /* Розовый цвет для текста списка */
+  font-size: 16px; /* Настройка размера текста */
 }
