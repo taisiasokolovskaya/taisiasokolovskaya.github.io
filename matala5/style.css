@@ -9,13 +9,17 @@ header {
   padding: 10 px 0;
 }
 section{
-
 display: inline-block;
 width: 30 %;
 margin-right: 2 %;
 float: right;
 }
+footer {
+background: #BBBBBB;
+height: 100 px;
+clear: both
 
+}
 h2 {
   color: purple;
 
