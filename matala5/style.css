@@ -4,9 +4,10 @@ body {
   padding: 0;
 }
 header {
-  background-color: #333;
-  color: white;
-  padding: 10 px 0;
+    background-color: pink;
+    color: red;
+    text-align: center;
+    padding-bottom: 15 px;
 }
 section{
 display: inline-block;
