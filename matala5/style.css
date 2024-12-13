@@ -16,19 +16,6 @@ width: 30%;
 
 margin-right: 2%;
 }
-container {
-  display: flex; /* Расположение колонок в одну строку */
-  justify-content: space-between; /* Равномерное распределение колонок */
-  gap: 20px; /* Расстояние между колонками */
-}
-
-.column {
-  flex: 1; /* Все колонки имеют одинаковую ширину */
-  text-align: center; /* Выравнивание текста по центру */
-  padding: 10px;
-  border: 1px solid #ccc; /* Граница для визуального разделения */
-  border-radius: 5px;
-}
 
 h2 {
   color: purple; /* Фиолетовый цвет заголовков */
