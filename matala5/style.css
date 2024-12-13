@@ -6,27 +6,24 @@ body {
 header {
   background-color: #333;
   color: white;
-  padding: 10px 0;
+  padding: 10 px 0;
 }
 section{
 
-display:inline-block;
-
-width: 30%;
-
-margin-right: 2%;
+display: inline-block;
+width: 30 %;
+margin-right: 2 %;
+float: right;
 }
 
 h2 {
-  color: purple; /* Фиолетовый цвет заголовков */
-}
+  color: purple;
 
 ul {
-  list-style-type: none; /* Убирает маркеры у списка */
+  list-style-type: none; 
   padding: 0;
 }
 
 li {
-  color: black; /* Розовый цвет текста списка */
-  font-size: 16px; /* Размер текста списка */
-}
+  color: black;
+  font-size: 16 px; 
