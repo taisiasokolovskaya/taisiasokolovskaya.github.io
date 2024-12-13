@@ -37,18 +37,21 @@ a:hover {
   text-decoration: underline; /* Optional, but makes the hover effect more noticeable */
 }
 container {
-  display: flex;
-  justify-content: space-between;
+  display: flex; /* Расположение колонок в одну строку */
+  justify-content: space-between; /* Равномерное распределение колонок */
+  gap: 20px; /* Расстояние между колонками */
 }
 
 .column {
-  flex: 1;
-  margin: 0 10px;
+  flex: 1; /* Все колонки имеют одинаковую ширину */
+  text-align: center; /* Выравнивание текста по центру */
+  padding: 10px;
+  border: 1px solid #ccc; /* Граница для визуального разделения */
+  border-radius: 5px;
 }
 
 h2 {
-  text-align: center;
-  color: purple; /* Фиолетовый цвет для заголовков */
+  color: purple; /* Фиолетовый цвет заголовков */
 }
 
 ul {
@@ -57,6 +60,6 @@ ul {
 }
 
 li {
-  color: pink; /* Розовый цвет для текста списка */
-  font-size: 16px; /* Настройка размера текста */
+  color: pink; /* Розовый цвет текста списка */
+  font-size: 16px; /* Размер текста списка */
 }
