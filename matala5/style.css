@@ -53,3 +53,24 @@ tbody {
     unicode-bidi: isolate;
     border-color: inherit;
 }
+body {
+    display: block;
+    margin: 0 px;
+}
+ line-gutter-backdrop {
+    box-sizing: border-box;
+    width: 31 px;
+    background-color: light-dark (rgb (240, 240, 240), rgb (60, 60, 60));
+    user-select: none;
+    position: absolute;
+    z-index: -1;
+    left: 0 px;
+    top: 0 px;
+    height: 100 %;
+    padding: 0 px 4 px ! important;
+    border-right: 1 px solid rgb (187, 187, 187) ! important;
+} 
+div {
+    display: block;
+    unicode-bidi: isolate;
+}
