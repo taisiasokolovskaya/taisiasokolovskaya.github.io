@@ -1,1 +1,70 @@
+/* General Styles */
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background: linear-gradient(to bottom, #2b1055, #7597de);
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  overflow: hidden;
+}
 
+.container {
+  position: relative;
+  width: 80%;
+  max-width: 600px;
+  text-align: center;
+}
+
+/* Line Styles */
+.line {
+  position: absolute;
+  left: -150px; /* Start off-screen */
+  font-size: 20px;
+  font-weight: bold;
+  opacity: 0; /* Initially hidden */
+  animation-fill-mode: forwards; /* Keep animation state after finishing */
+}
+
+/* Animations for lines */
+#line1 {
+  animation: slideIn 2s 0.5s, fadeIn 2s 0.5s;
+}
+#line2 {
+  animation: slideIn 2s 2s, fadeIn 2s 2s;
+}
+#line3 {
+  animation: slideIn 2s 3.5s, fadeIn 2s 3.5s;
+}
+#line4 {
+  animation: slideIn 2s 5s, fadeIn 2s 5s;
+}
+
+/* Sprite Animation */
+.sprite {
+  width: 100px;
+  height: 100px;
+  background: url('sprite-sheet.png') no-repeat;
+  position: absolute;
+  top: 80%;
+  left: 40%;
+  animation: spriteMove 1s steps(4) infinite;
+}
+
+/* Keyframes */
+@keyframes slideIn {
+  0% { left: -150px; opacity: 0; }
+  100% { left: 50px; opacity: 1; }
+}
+
+@keyframes fadeIn {
+  0% { opacity: 0; }
+  100% { opacity: 1; }
+}
+
+@keyframes spriteMove {
+  from { background-position: 0 0; }
+  to { background-position: -400px 0; }
+}
