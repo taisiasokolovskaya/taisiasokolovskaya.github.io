@@ -1,19 +1,19 @@
 function askBoy (){
     var girl = document.getElementById("girl");
-    girl.style.background= "url('../dorothy/images/walk.png')";
-    girl.style.animation = "walkSpriteAnimation 2s steps(16) forwards";
-    girl.style.left = '400px'; 
-    girl.style.top = '300px';
+    chips.style.background= "url('../images/market.jpg')";
+    chips.style.animation = "walkSpriteAnimation 2s steps(16) forwards";
+    chips.style.left = '400px'; 
+    chips.style.top = '300px';
 
     var frameIndex = 1;
     var walkAnimationInterval = setInterval(function() {
         frameIndex++;
         if (frameIndex > 20) {
             clearInterval(walkAnimationInterval); 
-            girl.style.background = "url('../dorothy/images/dorothyIdle.png')"; 
+            girl.style.background = "url('../images/market.jpg')"; 
             girl.style.animation = "sprite-animation 2s steps(16) infinite"; 
         } else {
-            girl.style.background = "url('../dorothy/images/walk.png')"; 
+            girl.style.background = "url('../images/market.jpg')"; 
         }
     }, 100); 
     var moveRightDiv = document.querySelector('.moveRight');
@@ -38,10 +38,10 @@ function askBoy (){
 }
 function nextPage (){
     var girl = document.getElementById("girl");
-    girl.style.background= "url('../dorothy/images/walk.png')";
-    girl.style.animation = "walkSpriteAnimation 4s steps(16) forwards";
-    girl.style.left = '1500px'; 
-    girl.style.top = '300px';
+    chips.style.background= "url('../images/market.jpg')";
+    chips.style.animation = "walkSpriteAnimation 4s steps(16) forwards";
+    chips.style.left = '1500px'; 
+    chips.style.top = '300px';
 
     var divElements = document.querySelectorAll('.moveRight2, .moveLeft');
     divElements.forEach(function(element) {
