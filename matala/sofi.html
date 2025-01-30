@@ -3,49 +3,22 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Courge 1</title>
+    <title>Collect Food</title>
     <link rel="stylesheet" href="CSS/style1.css"> 
-    <style>
-        body {
-            background-image: url('../images/market.png');
-            background-size: cover;
-            background-position: center;
-        }
-        .character {
-            position: absolute;
-            width: 50px;
-            height: 100px;
-            background: url('../images/walking_sheet.png') no-repeat;
-            background-size: contain;
-        }
-        .item {
-            position: absolute;
-            width: 50px;
-            height: 50px;
-        }
-        #cola {
-            background: url('../images/cola.png') no-repeat;
-            background-size: contain;
-            top: 200px;
-            left: 100px;
-        }
-        #chips {
-            background: url('../images/chips.png') no-repeat;
-            background-size: contain;
-            top: 300px;
-            left: 300px;
-        }
-    </style>
+    <link rel="stylesheet" href="CSS/game.css"> 
 </head>
 <body>
-    <div id="cola" class="item"></div>
-    <div id="chips" class="item"></div>
-    <audio id="buttonSound1" src="../dorothy/Audio/level.mp3" preload="auto"></audio>
+    <div id="game-container">
+        <div id="supermarket"></div>
+        <div id="character" class="character"></div>
+        <div id="chips" class="item"></div>
+        <div id="cola" class="item"></div>
+    </div>
 
-    <button class="buttons" onclick="askBoy()">I'm hungry... let's find some food together</button>
-    
-    <div id="character" class="character"></div>
+    <audio id="buttonSound1" src="../dorothy/Audio/level.mp3" preload="auto"></audio>
+    <button class="buttons" onclick="startGame()">אני רעב בואו נאסוף אוכל</button>
 
     <script src="JS/courge.js"></script> 
+    <script src="JS/game.js"></script>
 </body>
 </html>
