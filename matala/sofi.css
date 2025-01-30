@@ -1,0 +1,42 @@
+body {
+    background-image: url('../images/supermarket.png');
+    background-size: cover;
+    background-position: center;
+    overflow: hidden;
+}
+
+#game-container {
+    position: relative;
+    width: 100vw;
+    height: 100vh;
+}
+
+.character {
+    position: absolute;
+    width: 50px;
+    height: 100px;
+    background: url('../images/walking_sheet.png') no-repeat;
+    background-size: contain;
+    left: 50%;
+    top: 50%;
+}
+
+.item {
+    position: absolute;
+    width: 50px;
+    height: 50px;
+}
+
+#chips {
+    background: url('../images/chips.png') no-repeat;
+    background-size: contain;
+    bottom: 10px;
+    left: 10px;
+}
+
+#cola {
+    background: url('../images/cola.png') no-repeat;
+    background-size: contain;
+    bottom: 10px;
+    right: 10px;
+}
