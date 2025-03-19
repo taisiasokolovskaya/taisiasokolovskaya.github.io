@@ -30,6 +30,9 @@ function moveCoke() {
     console.log("Moving Coke!");
     cokeClicked = true;
     checkBothClicked();
+    setTimeout(function() {
+    document.getElementById("cola").style.display = "none";
+    }, 4000);
 }
 
 // Function to move chips
@@ -39,6 +42,9 @@ function moveChips() {
     console.log("Moving Chips!");
     chipsClicked = true;
     checkBothClicked();
+    setTimeout(function() {
+    document.getElementById("chips").style.display = "none";
+    }, 4000);
 }
 
 // Function to check if both divs have been clicked
