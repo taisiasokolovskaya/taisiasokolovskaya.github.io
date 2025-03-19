@@ -29,8 +29,8 @@ const dorothy = document.querySelector('.character');
 // Function to move Dorothy to a new position
 function moveDorothy() {
     alert("dorothy1");
-    dorothy.style.left = '1000px';  // New left position
-    dorothy.style.top = '800px';   // New top position
+    dorothy.style.left = '1900px';  // New left position
+    dorothy.style.top = '1050px';   // New top position
     alert("dorothy2");
 }
 
