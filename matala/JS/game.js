@@ -18,5 +18,40 @@ function moveDorothy() {
 }
 
 // Optional: Trigger the movement after a delay (e.g., 2 seconds)
-setTimeout(moveDorothy, 2000);
+//setTimeout(moveDorothy, 2000);
+
+let cokeClicked = false;
+let chipsClicked = false;
+
+// Function to move coke
+function moveCoke() {
+    dorothy.style.left = '1600px';  // New left position
+    dorothy.style.top = '900px';   // New top position
+    console.log("Moving Coke!");
+    cokeClicked = true;
+    checkBothClicked();
+}
+
+// Function to move chips
+function moveChips() {
+    dorothy.style.left = '100px';  // New left position
+    dorothy.style.top = '900px';   // New top position
+    console.log("Moving Chips!");
+    chipsClicked = true;
+    checkBothClicked();
+}
+
+// Function to check if both divs have been clicked
+function checkBothClicked() {
+    if (cokeClicked && chipsClicked) {
+        // If both have been clicked, set a timeout to redirect after 5 seconds
+        setTimeout(function() {
+            window.location.href = "https://google.com";
+        }, 4000); // 5000 ms = 5 seconds
+    }
+}
+
+// Add event listeners to the divs
+document.getElementById("coke").addEventListener("click", moveCoke);
+document.getElementById("chips").addEventListener("click", moveChips);
    
