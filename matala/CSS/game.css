@@ -36,13 +36,13 @@ body {
 #chips {
     background: url('../images/chips.png') no-repeat;
     background-size: contain;
-    top: 1050px;
+    top: 900px;
     left: 50px;
 }
 
 #cola {
     background: url('../images/cola.png') no-repeat;
     background-size: contain;
-    top: 1050px;
-    left: 1900px;
+    top: 900px;
+    left: 1600px;
 }
