@@ -16,15 +16,14 @@ body {
     width: 50px;
     height: 50px;
     background: url('../images/walking_sheet.png') 0 0;
-    background-size: contain;
-    left: 50%;
-    top: 50%;
+    left: 600px;
+    top: 500px;
     animation: walkAnimation 1s steps(4) infinite;
 }
 
 @keyframes walkAnimation {
     from { background-position: 0; }
-    to { background-position: -200px; }
+    to { background-position: 0px; }
 }
 
 .item {
