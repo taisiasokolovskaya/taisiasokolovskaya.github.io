@@ -52,6 +52,6 @@ function checkBothClicked() {
 }
 
 // Add event listeners to the divs
-document.getElementById("coke").addEventListener("click", moveCoke);
+document.getElementById("cola").addEventListener("click", moveCoke);
 document.getElementById("chips").addEventListener("click", moveChips);
    
