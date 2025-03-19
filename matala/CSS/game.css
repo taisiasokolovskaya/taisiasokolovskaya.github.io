@@ -13,18 +13,19 @@ body {
 
 .character {
     position: absolute;
-    width: 240px;
-    height: 240px;
+    width: 48px;
+    height: 48px;
     background: url('../images/walking_sheet.png') 0 0;
     left: 50%;
     top: 50%;
+    transform: scale(5); /* 5 times larger */
     animation: walkAnimation 4s steps(4) infinite;
     transition: left 4s, top 4s;
 }
 
 @keyframes walkAnimation {
     from { background-position: 0; }
-    to { background-position: -960px; }
+    to { background-position: -192px; }
 }
 
 .item {
