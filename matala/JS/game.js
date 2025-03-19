@@ -1,4 +1,4 @@
-function startGame() {
+
     let character = document.getElementById('character');
     let chips = document.getElementById('chips');
     let cola = document.getElementById('cola');
