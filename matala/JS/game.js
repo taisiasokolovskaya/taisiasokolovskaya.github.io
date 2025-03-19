@@ -18,14 +18,19 @@ function moveDorothy() {
 }
 
 // Optional: Trigger the movement after a delay (e.g., 2 seconds)
-//setTimeout(moveDorothy, 2000);
+setTimeout(function () {
+ dorothy.classList.add('flip-right');
+ //dorothy.classList.remove('flip-left');   
+}, 0);
 
 let cokeClicked = false;
 let chipsClicked = false;
 
 // Function to move coke
 function moveCoke() {
+    dorothy.classList.remove('flip-right');
     dorothy.classList.remove('flip-left');
+    dorothy.classList.add('flip-right');
     dorothy.style.left = '1600px';  // New left position
     dorothy.style.top = '900px';   // New top position
     console.log("Moving Coke!");
@@ -38,7 +43,8 @@ function moveCoke() {
 
 // Function to move chips
 function moveChips() {
-        
+    dorothy.classList.remove('flip-right');
+    dorothy.classList.remove('flip-left');
     dorothy.classList.add('flip-left');
 
     dorothy.style.left = '100px';  // New left position
