@@ -27,7 +27,7 @@ body {
  //transform: scale(5); /* 5 times larger */
 }
 .flip-left {
- scale(5) scaleX(-1);
+ transform: scale(5) scaleX(-1);
 }
 
 @keyframes walkAnimation {
