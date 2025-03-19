@@ -23,7 +23,7 @@ body {
 
 @keyframes walkAnimation {
     from { background-position: 0; }
-    to { background-position: 0px; }
+    to { background-position: 100px; }
 }
 
 .item {
