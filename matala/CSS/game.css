@@ -23,6 +23,10 @@ body {
     transition: left 4s, top 4s;
 }
 
+.flip-left {
+  transform: scaleX(-1); /* Flip horizontally */
+}
+
 @keyframes walkAnimation {
     from { background-position: 0; }
     to { background-position: -192px; }
