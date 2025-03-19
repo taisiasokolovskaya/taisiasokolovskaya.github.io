@@ -24,7 +24,7 @@ body {
 }
 
 .flip-left {
-  transform: scaleX(-1); /* Flip horizontally */
+  transform: scaleX(-5); /* Flip horizontally */
 }
 
 @keyframes walkAnimation {
