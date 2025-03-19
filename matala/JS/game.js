@@ -28,15 +28,12 @@ const dorothy = document.querySelector('.character');
 
 // Function to move Dorothy to a new position
 function moveDorothy() {
+    alert("dorothy1");
     dorothy.style.left = '1000px';  // New left position
     dorothy.style.top = '800px';   // New top position
+    alert("dorothy2");
 }
 
 // Optional: Trigger the movement after a delay (e.g., 2 seconds)
 setTimeout(moveDorothy, 2000);
-    /*
-    moveCharacter(chips.offsetLeft, chips.offsetTop, () => {
-        setTimeout(() => moveCharacter(cola.offsetLeft, cola.offsetTop), 500);
-    });
-}
-*/
+   
