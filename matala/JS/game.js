@@ -25,7 +25,7 @@ let chipsClicked = false;
 
 // Function to move coke
 function moveCoke() {
-    sprite.classList.remove('flip-left');
+    dorothy.classList.remove('flip-left');
     dorothy.style.left = '1600px';  // New left position
     dorothy.style.top = '900px';   // New top position
     console.log("Moving Coke!");
@@ -39,7 +39,7 @@ function moveCoke() {
 // Function to move chips
 function moveChips() {
         
-    sprite.classList.add('flip-left');
+    dorothy.classList.add('flip-left');
 
     dorothy.style.left = '100px';  // New left position
     dorothy.style.top = '900px';   // New top position
