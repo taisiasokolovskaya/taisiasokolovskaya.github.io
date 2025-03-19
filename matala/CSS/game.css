@@ -18,15 +18,16 @@ body {
     background: url('../images/walking_sheet.png') 0 0;
     left: 50%;
     top: 50%;
+    transform: scale(5);
     animation: walkAnimation 4s steps(4) infinite;
     transition: left 4s, top 4s;
 }
 
 .flip-right {
- transform: scale(5); /* 5 times larger */
+ //transform: scale(5); /* 5 times larger */
 }
 .flip-left {
-  transform: scaleX(-5); /* Flip horizontally */
+ scale(5) scaleX(-1);
 }
 
 @keyframes walkAnimation {
